@@ -7,7 +7,7 @@
         xmlns:models="clr-namespace:FlaUInspect.Models"
         xmlns:flauidef="clr-namespace:FlaUI.Core.Definitions;assembly=FlaUI.Core"
         xmlns:viewModels="clr-namespace:FlaUInspect.ViewModels"
-        Title="FlaUInspect" d:DesignHeight="350" d:DesignWidth="500" d:LayoutOverrides="Width, Height" ResizeMode="CanResizeWithGrip">
+        Title="ACS - FlaUInspect" d:DesignHeight="350" d:DesignWidth="500" d:LayoutOverrides="Width, Height" ResizeMode="CanResizeWithGrip">
     <Window.Resources>
         <Style x:Key="SelectableLabel" TargetType="{x:Type TextBox}">
             <Setter Property="Background" Value="Transparent" />
@@ -30,7 +30,7 @@
                     <MenuItem Header="E_xit" Click="MenuItem_Click" />
                 </MenuItem>
                 <MenuItem Header="_Mode">
-                    <MenuItem Header="H_over Mode (use Ctrl)" IsCheckable="True" IsChecked="{Binding EnableHoverMode}" />
+                    <MenuItem Header="H_over Mode (use Ctrl+Shift)" IsCheckable="True" IsChecked="{Binding EnableHoverMode}" />
                     <MenuItem Header="_Focus Tracking" IsCheckable="True" IsChecked="{Binding EnableFocusTrackingMode}" />
                     <MenuItem Header="Show _XPath" IsCheckable="True" IsChecked="{Binding EnableXPath}" />
                 </MenuItem>
